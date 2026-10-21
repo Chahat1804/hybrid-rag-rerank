@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hybrid-rag-rerank"
+version = "0.1.0"
+description = "Document QA with BM25 + vector retrieval, RRF fusion, and cross-encoder reranking"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

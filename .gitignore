@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local corpus, vector index, and benchmark reports may contain private data.
+data/corpus/*
+!data/corpus/.gitkeep
+data/index/*
+!data/index/.gitkeep
+reports/*
+!reports/.gitkeep
